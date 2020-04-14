@@ -1,0 +1,16 @@
+% pipenv, python
+
+# install all dependencies packages
+pipenv install
+
+# install all dev dependencies packages
+pipenv install --dev
+
+# install a specified package
+pipenv add <package_name>
+
+# install a specified dev package
+pipenv install <package_name> --dev
+
+# run a command in virtual environment
+pipenv run <command>
