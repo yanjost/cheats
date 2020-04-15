@@ -1,0 +1,4 @@
+% pytest
+
+# run tests marked with TAG
+pytest -m TAG
